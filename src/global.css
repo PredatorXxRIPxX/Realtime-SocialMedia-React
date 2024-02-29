@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list{
+    @apply font-bold w-full h-8 text-violet-500 my-5 p-5 flex justify-start items-center border-r-4 border-violet-500 border-solid transition-all duration-200 ease-in-out cursor-pointer
+}
